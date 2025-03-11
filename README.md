@@ -1,4 +1,4 @@
-# Conflict Serializable Validator [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Conflict Serializable Validator [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 This Python script checks if a given schedule of transactions is conflict serializable by constructing a dependency graph and detecting cycles. If the graph has no cycles, the schedule is conflict serializable, and the script provides a topological order of transactions. The script also visualizes the dependency graph using `networkx` and `matplotlib`.
 
